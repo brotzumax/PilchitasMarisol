@@ -36,30 +36,54 @@
   background: linear-gradient(135deg, #bbd7db 68%, #498d96 100%); }
 
 .anuncios .coleccion {
-  height: 600px;
   gap: 15px; }
   .anuncios .coleccion .nuevaRopa {
-    width: 50%;
+    height: 400px;
     background: #f2f3f0;
     background: linear-gradient(235deg, #f2f3f0 44%, #9f9f9f 100%); }
   .anuncios .coleccion .ropa {
-    width: 50%;
+    height: 1000px;
     gap: 15px; }
     .anuncios .coleccion .ropa .ropaBebe {
-      height: 50%;
+      height: 300px;
       background: #f2f3f0;
       background: linear-gradient(45deg, #f2f3f0 44%, #9f9f9f 100%); }
     .anuncios .coleccion .ropa .ropaNiños {
-      height: 50%;
+      height: 600px;
       gap: 15px; }
       .anuncios .coleccion .ropa .ropaNiños .ropaNiña {
-        width: 50%;
+        height: 50%;
         background: #f9f1eb;
         background: linear-gradient(235deg, #f9f1eb 21%, #ffe1cb 100%); }
       .anuncios .coleccion .ropa .ropaNiños .ropaNiño {
-        width: 50%;
+        height: 50%;
         background: #bbd7db;
         background: linear-gradient(135deg, #bbd7db 68%, #498d96 100%); }
+  @media screen and (min-width: 768px) {
+    .anuncios .coleccion .ropa {
+      height: 600px; }
+      .anuncios .coleccion .ropa .ropaNiños {
+        height: 300px; }
+        .anuncios .coleccion .ropa .ropaNiños .ropaNiña {
+          width: 50%;
+          height: 100%;
+          background: #f9f1eb;
+          background: linear-gradient(235deg, #f9f1eb 21%, #ffe1cb 100%); }
+        .anuncios .coleccion .ropa .ropaNiños .ropaNiño {
+          width: 50%;
+          height: 100%;
+          background: #bbd7db;
+          background: linear-gradient(135deg, #bbd7db 68%, #498d96 100%); } }
+
+@media screen and (min-width: 992px) {
+  .anuncios .coleccion {
+    height: 600px; }
+    .anuncios .coleccion .nuevaRopa {
+      width: 50%;
+      height: 100%; }
+    .anuncios .coleccion .ropa {
+      width: 50%;
+      height: 100%; } }
 
 /* FOOTER */
 .footer_container .suscripcion {
