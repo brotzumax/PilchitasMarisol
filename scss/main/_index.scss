@@ -1,0 +1,52 @@
+/* INDEX */
+.anuncios {
+    .principal {
+        height: 400px;
+
+        background: rgb(187, 215, 219);
+        background: linear-gradient(135deg, rgba(187, 215, 219, 1) 68%, rgba(73, 141, 150, 1) 100%);
+    }
+
+    .coleccion {
+        height: 600px;
+        gap: 15px;
+
+        .nuevaRopa {
+            width: 50%;
+
+            background: rgb(242, 243, 240);
+            background: linear-gradient(235deg, rgba(242, 243, 240, 1) 44%, rgba(159, 159, 159, 1) 100%);
+        }
+
+        .ropa {
+            width: 50%;
+            gap: 15px;
+
+            .ropaBebe {
+                height: 50%;
+
+                background: rgb(242, 243, 240);
+                background: linear-gradient(45deg, rgba(242, 243, 240, 1) 44%, rgba(159, 159, 159, 1) 100%);
+            }
+
+            .ropaNiños {
+                height: 50%;
+                gap: 15px;
+
+                .ropaNiña {
+                    width: 50%;
+
+                    background: rgb(249, 241, 235);
+                    background: linear-gradient(235deg, rgba(249, 241, 235, 1) 21%, rgba(255, 225, 203, 1) 100%);
+                }
+
+                .ropaNiño {
+                    width: 50%;
+
+                    background: rgb(187, 215, 219);
+                    background: linear-gradient(135deg, rgba(187, 215, 219, 1) 68%, rgba(73, 141, 150, 1) 100%);
+                }
+            }
+        }
+    }
+}

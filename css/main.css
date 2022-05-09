@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* HEADER */
+.header_container a {
+  text-decoration: none; }
+  .header_container a .logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%; }
+  .header_container a .logo .title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 22px;
+    color: #000000; }
+    .header_container a .logo .title h1, .header_container a .logo .title h2 {
+      line-height: 1;
+      margin: 0px; }
+    .header_container a .logo .title h2 {
+      font-size: 22px; }
+
+.header_container .informacion {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 600;
+  font-size: 20px;
+  gap: 5px; }
+  .header_container .informacion .numero img {
+    width: 30px; }
+  .header_container .informacion .numero .telefono {
+    color: #25d366; }
+
+.header_navbar {
+  border-bottom: 1px #808080 solid; }
+
+/* INDEX */
+.anuncios .principal {
+  height: 400px;
+  background: #bbd7db;
+  background: linear-gradient(135deg, #bbd7db 68%, #498d96 100%); }
+
+.anuncios .coleccion {
+  height: 600px;
+  gap: 15px; }
+  .anuncios .coleccion .nuevaRopa {
+    width: 50%;
+    background: #f2f3f0;
+    background: linear-gradient(235deg, #f2f3f0 44%, #9f9f9f 100%); }
+  .anuncios .coleccion .ropa {
+    width: 50%;
+    gap: 15px; }
+    .anuncios .coleccion .ropa .ropaBebe {
+      height: 50%;
+      background: #f2f3f0;
+      background: linear-gradient(45deg, #f2f3f0 44%, #9f9f9f 100%); }
+    .anuncios .coleccion .ropa .ropaNiños {
+      height: 50%;
+      gap: 15px; }
+      .anuncios .coleccion .ropa .ropaNiños .ropaNiña {
+        width: 50%;
+        background: #f9f1eb;
+        background: linear-gradient(235deg, #f9f1eb 21%, #ffe1cb 100%); }
+      .anuncios .coleccion .ropa .ropaNiños .ropaNiño {
+        width: 50%;
+        background: #bbd7db;
+        background: linear-gradient(135deg, #bbd7db 68%, #498d96 100%); }
+
+/* FOOTER */
+.footer_container .suscripcion {
+  background: #bbd7db; }
+  .footer_container .suscripcion div {
+    color: #ffffff; }
+    .footer_container .suscripcion div h3 {
+      font-size: 24px; }
+  .footer_container .suscripcion form .input_email {
+    width: 350px;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffffff; }
+  .footer_container .suscripcion form .input_submit {
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffffff;
+    transition: ease-in-out;
+    transition-duration: 0.3s; }
+    .footer_container .suscripcion form .input_submit:hover {
+      background-color: #000000;
+      color: #ffffff; }
+
+.footer_container .informacion {
+  background: #f9f1eb;
+  border-bottom: 1px solid #000000; }
+  .footer_container .informacion .sobreNosotros a {
+    text-decoration: none;
+    color: #000000; }
+
+.footer_container .pagos {
+  background: #f9f1eb; }
+  .footer_container .pagos img {
+    height: 50px; }
+  .footer_container .pagos .linkInstagram a {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    text-decoration: none;
+    color: #000000; }

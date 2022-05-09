@@ -1,0 +1,71 @@
+/* FOOTER */
+
+.footer_container {
+    .suscripcion {
+        background: rgb(187, 215, 219);
+
+        div {
+            color: #ffffff;
+
+            h3 {
+                font-size: 24px;
+            }
+        }
+
+        form {
+            .input_email {
+                width: 350px;
+                height: 50px;
+                padding: 10px;
+
+                border: none;
+                border-radius: 10px;
+                background-color: #ffffff;
+            }
+
+            .input_submit {
+                height: 50px;
+
+                padding-left: 20px;
+                padding-right: 20px;
+
+                border: none;
+                border-radius: 10px;
+                background-color: #ffffff;
+
+                transition: ease-in-out;
+                transition-duration: 0.3s;
+
+                &:hover {
+                    background-color: #000000;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+
+    .informacion {
+        background: rgb(249, 241, 235);
+        border-bottom: 1px solid #000000;
+
+        .sobreNosotros a {
+            text-decoration: none;
+            color: #000000;
+        }
+    }
+
+    .pagos {
+        background: rgb(249, 241, 235);
+
+        img {
+            height: 50px;
+        }
+
+        .linkInstagram a {
+            font-family: 'Dancing Script', cursive;
+            font-size: 30px;
+            text-decoration: none;
+            color: #000000;
+        }
+    }
+}
