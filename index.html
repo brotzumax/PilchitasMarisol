@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;500&display=swap" rel="stylesheet">
 
     <!-- Link a CSS propio -->
     <link rel="stylesheet" href="./css/main.css">
@@ -72,25 +73,48 @@
 
     <main>
         <section class="anuncios">
-            <div class="principal mx-3 mb-4">
-
+            <div class="principal mx-3 mb-4 d-flex justify-content-end">
+                <div class="d-flex flex-column align-items-start justify-content-center">
+                    <span class="descuentoPrincipal">60% OFF</span>
+                    <span class="tituloPrincipal py-3">Descuento de mitad de temporada</span>
+                    <button class="botonPrincipal">Compra ahora!</button>
+                </div>
             </div>
 
             <div class="coleccion mx-3 mb-4 d-flex flex-column flex-lg-row">
-                <div class="nuevaRopa">
-
+                <div class="nuevaRopa d-flex justify-content-end">
+                    <div class="d-flex flex-column align-items-start justify-content-center gap-4">
+                        <span>Colección otoño</span>
+                        <span>¡Nuevo!</span>
+                        <span>Descuento de temporada</span>
+                        <span>Ahorra hasta 50% en todos nuestros productos</span>
+                        <button>Compra ahora!</button>
+                    </div>
                 </div>
+
                 <div class="ropa d-flex flex-column">
                     <div class="ropaBebe">
-
+                        <div class="d-flex flex-column align-items-start justify-content-evenly ps-5">
+                            <span>Ropa de bebe</span>
+                            <span>¡Solo por tiempo limitado!</span>
+                            <a href="">Compra ahora!</a>
+                        </div>
                     </div>
 
                     <div class="ropaNiños d-flex flex-column flex-md-row">
                         <div class="ropaNiña">
-
+                            <div class="d-flex flex-column gap-3 ps-5 pt-5">
+                                <span>Niñas</span>
+                                <span>Con 20% de descuento</span>
+                                <a href="">Compra ahora!</a>
+                            </div>
                         </div>
                         <div class="ropaNiño">
-
+                            <div class="d-flex flex-column gap-3 ps-5 pt-5">
+                                <span>Niños</span>
+                                <span>Oferta con tiempo limitado</span>
+                                <a href="">Compra ahora!</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -165,7 +189,8 @@
                     <div class="col-12 col-md-4 d-flex justify-content-center pb-3 pb-md-0">
                         <img src="./images/metodos-de-pago.png" alt="Metodos de pago">
                     </div>
-                    <div class="linkInstagram col-12 col-md-4 d-flex justify-content-center justify-content-md-end align-items-center">
+                    <div
+                        class="linkInstagram col-12 col-md-4 d-flex justify-content-center justify-content-md-end align-items-center">
                         <a href="https://www.instagram.com/pilchitasm/" target=”_blank”>
                             <img src="./images/instagramLogo.png" alt="">
                             <span class="ps-1">Pilchitasm</span>
